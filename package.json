@@ -1,0 +1,26 @@
+{
+  "name": "food_ordering_application",
+  "version": "1.0.0",
+  "description": "An application to avoid anytime cravings :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhythm98/Food-Ordering-Application.git"
+  },
+  "keywords": [
+    "food",
+    "healthy",
+    "snacks",
+    "meal",
+    "diet"
+  ],
+  "author": "Rhythm Agrawal, Ritesh Harihar, Apurv Singh, Ashutosh Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhythm98/Food-Ordering-Application/issues"
+  },
+  "homepage": "https://github.com/rhythm98/Food-Ordering-Application#readme"
+}
