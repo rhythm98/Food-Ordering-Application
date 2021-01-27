@@ -2,9 +2,9 @@
   "name": "food_ordering_application",
   "version": "1.0.0",
   "description": "An application to avoid anytime cravings :)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "src/run.js",
+  "scripts": {   
+    "start": "node src/run.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/rhythm98/Food-Ordering-Application/issues"
   },
-  "homepage": "https://github.com/rhythm98/Food-Ordering-Application#readme"
+  "homepage": "https://github.com/rhythm98/Food-Ordering-Application#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.4",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-react": "^7.22.0"
+  }
 }

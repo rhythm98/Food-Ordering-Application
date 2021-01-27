@@ -1,0 +1,2 @@
+all static things/code come here
+css js for frontend will come here

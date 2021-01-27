@@ -1,0 +1,55 @@
+npm i express express-hbs sequelize mysql2
+npm i -D eslint eslint-config-standard
+sudo apt install eslint
+eslint --init 
+./node_modules/.bin/eslint --init
+
+/*
+✔ How would you like to use ESLint? · problems
+✔ What type of modules does your project use? · esm
+✔ Which framework does your project use? · react
+✔ Does your project use TypeScript? · No
+✔ Where does your code run? · browser
+✔ What format do you want your config file to be in? · JavaScript
+The config that you've selected requires the following dependencies:
+
+eslint-plugin-react@latest
+✔ Would you like to install them now with npm? Yes
+*/
+
+
+
+
+
+
+
+
+
+
+Responsive website
+register login
+animations
+logo name
+Oauth - mobile no / email notification
+ratings
+dish card - react
+filter
+app bar 
+payment
+smooth loading
+page of dish
+food review
+api end points - use slug
+user panel / admin panel
+
+1. MongoDB (Non RDBMS) / Postgresql (RDBMS or Non RDBMS)
+2. Express JS to create server
+3. Angular or React - Frontend Library
+4. Nodejs or dJango as backend
+5. HTML/CSS/JS - basic functional frontend
+6. jQuery - Frontend JS library
+7. SASS dynamic modern CSS
+
+Razorpay tutorial - https://www.youtube.com/watch?v=nGZbqT4lb_g
+passport js tutorial - 
+neomorphism, glass effect on site
