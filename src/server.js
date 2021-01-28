@@ -8,7 +8,11 @@ app.use('/',express.static(path.join(__dirname,'../public')))
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
-app.get('/',(req,res)=>res.send('Hello World'))
+// app.get('/',(req,res)=>res.send('Hello World'))
+
+app.use('/',require('./routes/pages'))
+app.use('/api',require('./routes/api'))
+
 // app.listen(2323,()=>{
 //     console.log('Server started on http://localhost:3000')
 // })

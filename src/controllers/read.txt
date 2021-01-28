@@ -1,0 +1,2 @@
+controllers have function to show data 
+from database to the client page

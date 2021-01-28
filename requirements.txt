@@ -3,7 +3,10 @@ npm i -D eslint eslint-config-standard
 sudo apt install eslint
 eslint --init 
 ./node_modules/.bin/eslint --init
-
+npm install -D debug
+$ DEBUG=app:* node src/run.js
+$ DEBUG=* node src/run.js
+$ DEBUG=express* node src/run.js   <--to see all express logs
 /*
 ✔ How would you like to use ESLint? · problems
 ✔ What type of modules does your project use? · esm

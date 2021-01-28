@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An application to avoid anytime cravings :)",
   "main": "src/run.js",
-  "scripts": {   
+  "scripts": {
     "start": "node src/run.js"
   },
   "repository": {
@@ -30,6 +30,7 @@
     "sequelize": "^6.5.0"
   },
   "devDependencies": {
+    "debug": "^2.6.9",
     "eslint": "^7.18.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-react": "^7.22.0"
