@@ -4,7 +4,8 @@
   "description": "An application to avoid anytime cravings :)",
   "main": "src/run.js",
   "scripts": {
-    "start": "node src/run.js"
+    "start": "node src/run.js",
+    "seeddata": "node scripts/seed_sampledish.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-hbs": "^2.3.4",
+    "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
     "sequelize": "^6.5.0"
   },
   "devDependencies": {

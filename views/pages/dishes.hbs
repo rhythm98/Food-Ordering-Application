@@ -1,0 +1,9 @@
+{{#each dishes as |dish|}}
+    <section>
+        <h1>{{dish.title}}</h1>
+        <small> - by {{dish.author.username}}</small>
+        <div>
+            {{dish.content}}
+        </div>
+    </section>
+{{/each}}

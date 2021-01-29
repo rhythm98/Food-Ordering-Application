@@ -1,0 +1,17 @@
+ <section>
+    <h1>{{dish.title}}</h1>
+    <small> - by {{dish.author.username}}</small>
+    <div>
+        {{dish.content}}
+    </div>
+</section>
+<section>
+    <h1>Comments</h1>
+    {{#each dish.comments as|comment|}}
+        <div>
+            <h2>{{comment.title}}</h2>
+            <div>- by <small>{{comment.user.username}}</small></div>
+            <p>{{comment.message}}</p>
+        </div>
+    {{/each}}
+</section>

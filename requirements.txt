@@ -7,6 +7,7 @@ npm install -D debug
 $ DEBUG=app:* node src/run.js
 $ DEBUG=* node src/run.js
 $ DEBUG=express* node src/run.js   <--to see all express logs
+$ DEBUG=sequelize* npm start
 /*
 ✔ How would you like to use ESLint? · problems
 ✔ What type of modules does your project use? · esm
@@ -22,6 +23,10 @@ eslint-plugin-react@latest
 
 
 
+
+We need express-session to maintain logins
+session maintain cookies, cookies are used to maintain
+passport sessions
 
 
 
@@ -56,3 +61,39 @@ user panel / admin panel
 Razorpay tutorial - https://www.youtube.com/watch?v=nGZbqT4lb_g
 passport js tutorial - 
 neomorphism, glass effect on site
+
+
+
+- /
+  - /api
+      - /api/dishes -> [] json Array of dishes
+          - /api/dish/5 -> {} json object particular dish, 5 represents slug
+          - /api/dish/5/comments -> [] json Array of comments
+      - /api/users -> [] json Array of users
+
+  - /dishes -> create HTML page, rendered via handlebars HTR
+  - /users -> create HTML page, rendered via handlebars HTR
+
+
+
+
+## TODOS
+
+
+### Security
+
+
+1. Hash the passwords, do not save as string
+2. Use an access control layer to control who can create/edit dishes and comments
+
+
+### Application
+
+
+1. Create/edit/delete dishes and comments
+
+
+### UI
+
+
+1. Implement a CSS framework (like Bootstrap)
