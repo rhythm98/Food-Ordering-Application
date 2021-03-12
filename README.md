@@ -18,7 +18,7 @@
 
 
 ## How to Contribute ? 
-If you wish to contribute, check [CONTRIBUTING.md](https://github.com/codeDamon/CP-Docket/blob/master/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](https://github.com/codeDamon/CP-Docket/blob/master/CODE_OF_CONDUCT.md) 
+If you wish to contribute, check [CONTRIBUTING.md](https://github.com/rhythm98/Food-Ordering-Application/blob/master/Contributing.md) and [CODE_OF_CONDUCT.md](https://github.com/rhythm98/Food-Ordering-Application/blob/master/CODE_OF_CONDUCT.md) 
 
 ## Project Admin
 **[Rhythm Agrawal](https://github.com/rhythm98)** 
@@ -27,7 +27,7 @@ If you wish to contribute, check [CONTRIBUTING.md](https://github.com/codeDamon/
 
 **[Kunal Jain](https://github.com/kunaljain0212)**  
 **[Falguni Faina](https://github.com/falguniraina)**  
-**[Manish Kumar](https://github.com/xyz)**  
+**[Manish Kumar](https://github.com/kumarmanishbit)**  
 
 
 ## Show some love by Star ⭐ this Repo.
