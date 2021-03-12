@@ -18,7 +18,7 @@
 
 
 ## How to Contribute ? 
-If you wish to contribute, check [CONTRIBUTING.md](https://github.com/rhythm98/Food-Ordering-Application/blob/master/Contributing.md) and [CODE_OF_CONDUCT.md](https://github.com/rhythm98/Food-Ordering-Application/blob/master/CODE_OF_CONDUCT.md) 
+If you wish to contribute, check [CONTRIBUTING.md](https://github.com/rhythm98/Food-Ordering-Application/blob/main/Contributing.md) and [CODE_OF_CONDUCT.md](https://github.com/rhythm98/Food-Ordering-Application/blob/main/CODE_OF_CONDUCT.md) 
 
 ## Project Admin
 **[Rhythm Agrawal](https://github.com/rhythm98)** 
