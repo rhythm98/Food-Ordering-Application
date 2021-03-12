@@ -18,8 +18,8 @@
     "meal",
     "diet"
   ],
-  "author": "Rhythm Agrawal, Ritesh Harihar, Apurv Singh, Ashutosh Agarwal",
-  "license": "ISC",
+  "author": "Rhythm Agrawal",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rhythm98/Food-Ordering-Application/issues"
   },
