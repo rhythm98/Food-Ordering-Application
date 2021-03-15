@@ -26,7 +26,7 @@ If you wish to contribute, check [CONTRIBUTING.md](https://github.com/rhythm98/F
 ##  Project Mentor  
 
 **[Kunal Jain](https://github.com/kunaljain0212)**  
-**[Falguni Faina](https://github.com/falguniraina)**  
+**[Falguni Raina](https://github.com/falguniraina)**  
 **[Manish Kumar](https://github.com/kumarmanishbit)**  
 
 
