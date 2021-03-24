@@ -2,15 +2,15 @@
 
 </p>
 
-### A beginner friendly project which helps you to create a green corridor so that your meal can be delivered to you in a very efficient manner :) This project is useful for people who don't want to buy a full fledge restaurant to serve people, instead they just need to have a kitchen in their favourite place and some delivery partners according to their need.  
+### A beginner-friendly project which helps you to create a green corridor so that your meal can be delivered to you in a very efficient manner :) This project is useful for people who don't want to buy a full-fledged restaurant to serve people, instead, they just need to have a kitchen in their favorite place and some delivery partners according to their needs.
 
 
 
 ## Features of the App
 * Users can create an account using mobile or an email or OAuth.
-* They can order their favourite food online from their nearby available restaurants
+* They can order their favorite food online from their nearby available restaurants
 * They can pay online
-* They can get live updates of their order from kitchen till their door of delivery
+* They can get live updates of their order from the kitchen till their door of the delivery
 
 
 ## How to run project
