@@ -23,13 +23,13 @@ const index = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to=".about">About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact Us</NavLinks>
+              <NavLinks to=".contact-us">Contact Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to=".services">Services</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="sign-up">Sign Up</NavLinks>
