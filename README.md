@@ -31,6 +31,19 @@ If you wish to contribute, check [CONTRIBUTING.md](https://github.com/rhythm98/F
 **[Falguni Raina](https://github.com/falguniraina)**  
 **[Manish Kumar](https://github.com/kumarmanishbit)**  
 
+## Contributors
+### Credit goes to these people:✨
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/rhythm98/Food-Ordering-Application/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rhythm98/Food-Ordering-Application" />
+</a>
+		</td>
+	</tr>
+</table>
+
 
 ## Show some love by Star ⭐ this Repo.
 
