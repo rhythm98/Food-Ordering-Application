@@ -12,6 +12,8 @@
 * They can pay online
 * They can get live updates of their order from kitchen till their door of delivery
 
+## Tech Stack 
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Handelbars" src="https://img.shields.io/badge/handelbars-%23FA7343.svg?&style=for-the-badge&logo=handelbars&logoColor=white"/>  <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 
 ## How to run project
 
