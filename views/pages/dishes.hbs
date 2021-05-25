@@ -1,0 +1,20 @@
+{{#each dishArray as |dish|}}
+  <div class="fullCard" id="thumbnail">
+  <div class="cardContent">
+    <div class="cardText">
+      <h4>{{dish.name}}</h4>
+      <img src="{{dish.imageUrl}}" width="230" alt="{{dish.name}}">
+      <hr>
+      <p><em>{{dish.description}}.</em></p>
+    </div>
+    <div class="cardLinks">
+      &#8377;{{dish.price}}<br>
+      <a href='/dishes/{{dish.uuid}}'>read more...</a>
+    </div>
+  </div>
+</div>
+{{/each}}
+
+
+
+

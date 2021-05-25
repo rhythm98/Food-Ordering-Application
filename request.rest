@@ -1,0 +1,36 @@
+# Extension to make REST API requests inside VS Code
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+GET http://localhost:2323/api/dishes/
+###
+GET http://localhost:2323/api/dishes/{uuid}
+
+###
+POST http://localhost:2323/api/dishes/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Raj Kachori",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/chaat-bae.appspot.com/o/rajKachori.JPG?alt=media&token=c849f4ba-cbd5-46bd-a577-7a071ef093c5",
+    "price": 120,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo sunt dolore sed aut iusto repellendus porro numquam pariatur dolorem, amet voluptates praesentium fugit laboriosam vel quas fuga accusantium rerum."
+}
+
+###
+GET http://localhost:2323/api/users/
+###
+GET http://localhost:2323/api/users/{uuid}
+###
+GET http://localhost:2323/api/users/{username}
+
+###
+POST http://localhost:2323/api/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Ujjwal",
+    "lastName": "Negi",
+    "username": "kingOfLucknow",
+    "email": "ujjwal@gmail.com",
+    "password": "Sharapova"
+}

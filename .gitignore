@@ -1,0 +1,34 @@
+node_modules
+coverage
+.nyc_output
+public_static/Responsive-Web_Design
+frontend.png
+
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+client/coverage
+
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+# testing
+client/coverage
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*

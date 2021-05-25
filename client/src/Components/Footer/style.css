@@ -1,0 +1,14 @@
+
+/*Footer styles*/
+  
+.main-footer {
+  color: black;
+  background-color: #29aa52;
+  padding-top: 1%;
+  position: relative;
+  width: 100%;
+}
+.row{
+    display:flex;
+    
+}

@@ -1,0 +1,1 @@
+controllers have function which perform queries on database

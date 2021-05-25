@@ -1,0 +1,77 @@
+{
+  "name": "food_ordering_application",
+  "version": "1.0.0",
+  "description": "An application to avoid anytime cravings :)",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node src/run.js",
+    "start:dev": "nodemon DEBUG=* node -r dotenv/config src/run.js",
+    "start:resetdb": "FORCE_DB_RESET=true node src/run.js",
+    "seeddata": "node -r dotenv/config scripts/seed_sampledish.js DEBUG=*",
+    "test": "mocha",
+    "cover": "nyc --reporter=html --reporter=text --reporter=lcovonly mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhythm98/Food"
+  },
+  "keywords": [
+    "food",
+    "healthy",
+    "snacks",
+    "meal",
+    "diet"
+  ],
+  "author": "Rhythm Agrawal <rhythm.agrawal98@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhythm98/Food/issues"
+  },
+  "homepage": "https://github.com/rhythm98/Food#readme",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-hbs": "^2.3.4",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "debug": "^2.6.9",
+    "dotenv": "^9.0.2",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7",
+    "nyc": "^15.1.0",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "^14.17.0",
+    "npm": "^7.12.1"
+  },
+  "nyc": {
+    "extensions": [
+      ".js",
+      ".hbs"
+    ],
+    "reporter": [
+      "html",
+      "text-lcov",
+      "text",
+      "lcovonly"
+    ],
+    "sourceMap": true
+  }
+}

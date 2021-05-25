@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page: Static Content</title>
+    <link rel="stylesheet" href="style.css">
+        <!--Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <!--Card Style  -->
+    <style>
+  h4 {
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.8);
+    padding: 10px;
+    font-size: 27px;
+  }
+  p {
+    text-align: justify;
+  }
+  .links {
+    text-align: left;
+    color: black;
+  }
+#thumbnail{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+  .fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
+</style>
+</head>
+<body>
+    <!-- <h1>public_static/index.html</h1> -->
+    <!-- <h4><pre><code>app.use('/', express.static(path.join(__dirname, '../public_static')))</code></pre></h4> -->
+    <h3>
+    <nav >
+      <a href='/auth/login'>Login</a>&nbsp;
+      <a href='/auth/signup'>Signup</a>
+    </nav>
+    <main>
+    </h3>
+    <!-- <h1 >What is Lorem Ipsum?</h1> -->
+    <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> -->
+    <section><a href="https://bestofjs.org/projects?tags=framework">Start designing front end</a></section>
+      <input type="text" placeholder="What do you want to eat???">
+      <button type="submit">Search</button><br>
+      <!-- <img src="food.jpg" width="1080" alt=""> -->
+      <a href='/dishes'>Dishes</a><br>
+
+      <div class="fullCard" id="thumbnail">
+  <div class="cardContent">
+    <div class="cardText">
+      <h4>Raj Kachori</h4>
+      <img src= "https://firebasestorage.googleapis.com/v0/b/chaat-bae.appspot.com/o/rajKachori.JPG?alt=media&token=c849f4ba-cbd5-46bd-a577-7a071ef093c5" width="230" alt="{{dish.name}}">
+      <hr>
+      <p><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo sunt dolore sed aut iusto repellendus porro numquam pariatur dolorem, amet voluptates praesentium fugit laboriosam vel quas fuga accusantium rerum."</em></p>
+    </div>
+    <div class="cardLinks">
+      &#8377;120<br>
+      <a href='http://localhost:2323/dishes/4aacd076-a180-47eb-9be6-b5c2af3be0f9'>read more...</a>
+    </div>
+  </div>
+</div></main>
+</body>
+<footer></footer>
+</html>

@@ -1,0 +1,18 @@
+<section>
+    <h1>{{dish.name}}</h1>
+    <small> &#8377;{{dish.price}}</small>
+    <img src="{{dish.imageUrl}}" alt="{{dish.name}}" height="200">
+    <p>{{dish.description}}</p>
+   <h3>Reviews/Ratings</h3>
+</section>
+
+{{!-- <section>
+    <h1>Comments</h1>
+    {{#each dish.comments as |comment|}}
+        <div>
+            <h3>{{comment.title}}</h3>
+            <div>- by <small>{{comment.user.username}}</small></div>
+            <p>{{comment.message}}</p>
+        </div>
+    {{/each}}
+</section> --}}

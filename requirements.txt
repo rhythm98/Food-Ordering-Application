@@ -1,0 +1,128 @@
+create admin api endpoint allowed to only 1 admin
+then wahi admin can make other people admin or create restricted api to make admin users
+
+https://github.com/github/gitignore/blob/master/Node.gitignore
+
+
+npm i express express-hbs sequelize mysql2
+npm i -D eslint eslint-config-standard
+sudo apt install eslint
+eslint --init 
+./node_modules/.bin/eslint --init
+npm install -D debug
+$ DEBUG=app:* node src/run.js
+$ DEBUG=* node src/run.js
+$ DEBUG=express* node src/run.js   <--to see all express logs
+$ DEBUG=sequelize* npm start
+$ DEBUG=sequelize:* npm start
+/*
+✔ How would you like to use ESLint? · problems
+✔ What type of modules does your project use? · esm
+✔ Which framework does your project use? · react
+✔ Does your project use TypeScript? · No
+✔ Where does your code run? · browser
+✔ What format do you want your config file to be in? · JavaScript
+The config that you've selected requires the following dependencies:
+
+eslint-plugin-react@latest
+✔ Would you like to install them now with npm? Yes
+*/
+
+
+
+
+We need express-session to maintain logins
+session maintain cookies, cookies are used to maintain
+passport sessions
+
+
+
+
+
+
+
+Responsive website
+register login
+animations
+logo name
+Oauth - mobile no / email notification
+ratings
+dish card - react
+filter
+app bar 
+payment
+smooth loading
+page of dish
+food review
+api end points - use slug
+user panel / admin panel
+
+1. MongoDB (Non RDBMS) / Postgresql (RDBMS or Non RDBMS)
+2. Express JS to create server
+3. Angular or React - Frontend Library
+4. Nodejs or dJango as backend
+5. HTML/CSS/JS - basic functional frontend
+6. jQuery - Frontend JS library
+7. SASS dynamic modern CSS
+
+Razorpay tutorial - https://www.youtube.com/watch?v=nGZbqT4lb_g
+passport js tutorial - 
+neomorphism, glass effect on site
+
+
+
+- /
+  - /api
+      - /api/dishes -> [] json Array of dishes
+          - /api/dish/5 -> {} json object particular dish, 5 represents slug
+          - /api/dish/5/comments -> [] json Array of comments
+      - /api/users -> [] json Array of users
+
+  - /dishes -> create HTML page, rendered via handlebars HTR
+  - /users -> create HTML page, rendered via handlebars HTR
+
+
+
+
+## TODOS
+
+
+### Security
+
+
+1. Hash the passwords, do not save as string
+2. Use an access control layer to control who can create/edit dishes and comments
+
+
+### Application
+
+
+1. Create/edit/delete dishes and comments
+
+
+### UI
+
+
+1. Implement a CSS framework (like Bootstrap)
+
+
+Problems solved by frontEnd frameworks:
+components/modular approach
+frontend routing, based on url only recquired content changes contest/{x}/problem/{y}
+state management - saving of data whether in local-storage/session-storage/indexDB/ramOfBrowser
+
+> ## To add security to your website:  
+- encrypt database  
+- use node.bcrypt.js + salt to store user password instead of plain text  
+- use .env to store all critical keys of your project  
+- passport.js  
+- passport-local  
+- passport-local-mongoose  
+- express-session (for cookies and session)  
+- OAuth2.0 google apple samsung microsoft  
+
+Host project over https dont leak any secret key on frontEnd since its visible to everyone focus on what data should the user has access to and what not e.g. express.static se whole website ka code will be public never run sql query from frontend, always perform it in backend never commit passwords in github repo disabling people from logging into your server like cloudfare do nowadays
+
+https://www.npmjs.com/package/hbs vs https://www.npmjs.com/package/express-hbs
+hbs - Express.js template engine plugin for Handlebars
+express-hbs - Express handlebars template engine complete with multiple layouts, partials and blocks.

@@ -1,0 +1,12 @@
+<h1>Login</h1>
+{{#if messages.error}}
+{{messages.error}}
+{{/if}}
+<div>Login using existing credentials</div>
+<form method='post' action='/auth/login'>
+  <input type='text' name='username' placeholder='username' /><br>
+  <input type='password' name='password' placeholder='password' />
+  <br />
+  <input type='reset' /> <button type='submit'>Login</button>
+  
+</form>
